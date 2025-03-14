@@ -20,12 +20,12 @@ ckpt:
 data:
   train_output_dir: debug/syncnet
   num_val_samples: 2048
-  batch_size: 128 # 128
-  num_workers: 11 # 11
+  batch_size: 256 # 256
+  num_workers: 12 # 12
   latent_space: false
   num_frames: 16
   resolution: 256
-  train_fileslist: /mnt/bn/maliva-gen-ai-v2/chunyu.li/fileslist/all_data_v6.txt
+  train_fileslist: /mnt/bn/maliva-gen-ai-v2/chunyu.li/fileslist/data_v9_syncnet.txt
   train_data_dir: ""
   val_fileslist: ""
   val_data_dir: /mnt/bn/maliva-gen-ai-v2/chunyu.li/VoxCeleb2/high_visual_quality/val
